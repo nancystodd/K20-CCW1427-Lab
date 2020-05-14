@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>lab_1_fetch_art_collection</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"85c99782-ad2e-4986-b58b-485071fd2202.artwork","label":"1➛Artwork","reference_display":"Artwork","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD77be9fc2fc801010f3df7e01ad810b20","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"77feccc9-5c61-42d7-8db6-86fec9a5bc30"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.item_count","label":"1➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.page_count","label":"1➛Page Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.count","label":"1➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.ds_count","label":"1➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.item","label":"1➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.ds_output_page_variables","label":"1➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.response_headers","label":"1➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.error_message","label":"1➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.status_code","label":"1➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.error_code","label":"1➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.ds_parsed_stream","label":"1➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.artwork.title","label":"1➛Artwork➛Title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.artwork.artist_name","label":"1➛Artwork➛Artist Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"85c99782-ad2e-4986-b58b-485071fd2202.artwork.location_name","label":"1➛Artwork➛Location Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Lab 1: Fetch Art Collection</name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>be9fd70614801010f8772b9720bcff20</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Lab 1: Fetch Art Collection</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCW1427_Demo" source="x_ccw1427_demo">c95a5d2718730010f87734669adcea01</sys_package>
@@ -37,11 +37,68 @@
         <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
         <sys_update_name>sys_hub_flow_be9fd70614801010f8772b9720bcff20</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-10 04:35:17</sys_updated_on>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=be9fd70614801010f8772b9720bcff20"/>
     <sys_variable_value action="delete_multiple" query="document_key=be9fd70614801010f8772b9720bcff20"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=be9fd70614801010f8772b9720bcff20^sys_idNOT IN492ca10ddc3810107f44e1d0868cc3e0,cd2ca50ddc3810107f44e1d0868cc371"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 1: Fetch Art Collection">be9fd70614801010f8772b9720bcff20</flow>
+        <order>1.1</order>
+        <parent_ui_id>85c99782-ad2e-4986-b58b-485071fd2202</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>492ca10ddc3810107f44e1d0868cc3e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <ui_id>2b469a31-9b13-47fb-8e7f-b2cedd9de250</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=492ca10ddc3810107f44e1d0868cc3e0"/>
+    <sys_element_mapping action="delete_multiple" query="id=492ca10ddc3810107f44e1d0868cc3e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>492ca10ddc3810107f44e1d0868cc3e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>c52ca50ddc3810107f44e1d0868cc36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Title: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.title}}, Artist: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.artist_name}}, Location: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.location_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Lab 1: Art Collection">e7be5fc214801010f8772b9720bcffde</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 1: Fetch Art Collection">be9fd70614801010f8772b9720bcff20</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>cd2ca50ddc3810107f44e1d0868cc371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <ui_id>85c99782-ad2e-4986-b58b-485071fd2202</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd2ca50ddc3810107f44e1d0868cc371"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=be9fd70614801010f8772b9720bcff20^sys_idNOT IN2bcf1b0614801010f8772b9720bcff3c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -52,10 +109,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-10 04:35:17</sys_created_on>
         <sys_id>2bcf1b0614801010f8772b9720bcff3c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-10 04:35:17</sys_updated_on>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
         <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -102,4 +159,61 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-10 04:34:25</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=be9fd70614801010f8772b9720bcff20^sys_idNOT IN492ca10ddc3810107f44e1d0868cc3e0,cd2ca50ddc3810107f44e1d0868cc371"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 1: Fetch Art Collection">be9fd70614801010f8772b9720bcff20</flow>
+        <order>1.1</order>
+        <parent_ui_id>85c99782-ad2e-4986-b58b-485071fd2202</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>492ca10ddc3810107f44e1d0868cc3e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <ui_id>2b469a31-9b13-47fb-8e7f-b2cedd9de250</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=492ca10ddc3810107f44e1d0868cc3e0"/>
+    <sys_element_mapping action="delete_multiple" query="id=492ca10ddc3810107f44e1d0868cc3e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>492ca10ddc3810107f44e1d0868cc3e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>c52ca50ddc3810107f44e1d0868cc36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Title: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.title}}, Artist: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.artist_name}}, Location: {{85c99782-ad2e-4986-b58b-485071fd2202.artwork.location_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Lab 1: Art Collection">e7be5fc214801010f8772b9720bcffde</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 1: Fetch Art Collection">be9fd70614801010f8772b9720bcff20</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 00:23:06</sys_created_on>
+        <sys_id>cd2ca50ddc3810107f44e1d0868cc371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 00:23:06</sys_updated_on>
+        <ui_id>85c99782-ad2e-4986-b58b-485071fd2202</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd2ca50ddc3810107f44e1d0868cc371"/>
 </record_update>
