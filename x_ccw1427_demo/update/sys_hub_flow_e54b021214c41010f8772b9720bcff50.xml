@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>lab_4_import_commodities_ref</internal_name>
+        <label_cache>[{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity","label":"1➛Commodity","reference_display":"Commodity","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDf56a86de48841010216c7144625cc781","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"fd624abe-f549-4ad6-a7a1-d5f5ccf2e96f"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.item_count","label":"1➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.page_count","label":"1➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.count","label":"1➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.ds_count","label":"1➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.item","label":"1➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.ds_output_page_variables","label":"1➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.response_headers","label":"1➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.error_message","label":"1➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.status_code","label":"1➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.error_code","label":"1➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.ds_parsed_stream","label":"1➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"0ac1be80-ce33-4681-9db6-aadab44417e2.record","label":"1.1➛Record","reference":"sys_hub_action_input","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"0ac1be80-ce33-4681-9db6-aadab44417e2.table_name","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"0ac1be80-ce33-4681-9db6-aadab44417e2.status","label":"1.1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"0ac1be80-ce33-4681-9db6-aadab44417e2.error_message","label":"1.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.category","label":"1➛Commodity➛Category","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.farmer_id","label":"1➛Commodity➛Farmer ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.item","label":"1➛Commodity➛Item","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Lab 4: Import Commodities REF</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:04:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e54b021214c41010f8772b9720bcff50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Lab 4: Import Commodities REF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CCW1427_Demo" source="x_ccw1427_demo">c95a5d2718730010f87734669adcea01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_update_name>sys_hub_flow_e54b021214c41010f8772b9720bcff50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e54b021214c41010f8772b9720bcff50"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e54b021214c41010f8772b9720bcff50"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e54b021214c41010f8772b9720bcff50^sys_idNOT IN12cb061214c41010f8772b9720bcff36,52cb061214c41010f8772b9720bcff3d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 4: Import Commodities REF">e54b021214c41010f8772b9720bcff50</flow>
+        <order>1.1</order>
+        <parent_ui_id>5b93b8bc-8caa-4847-a870-52b53e7b1ad8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>12cb061214c41010f8772b9720bcff36</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <ui_id>0ac1be80-ce33-4681-9db6-aadab44417e2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=12cb061214c41010f8772b9720bcff36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>12cb061214c41010f8772b9720bcff36</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>d6cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>x_ccw1427_demo_commodity</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=12cb061214c41010f8772b9720bcff36"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>12cb061214c41010f8772b9720bcff36</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>92cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>category={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.category}}^farmer_id={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.farmer_id}}^item={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.item}}^coalesce_fields=category,farmer_id,item</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>12cb061214c41010f8772b9720bcff36</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>56cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Lab 3: Commodities REF">ed6a86de14841010f8772b9720bcff3f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 4: Import Commodities REF">e54b021214c41010f8772b9720bcff50</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>52cb061214c41010f8772b9720bcff3d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <ui_id>5b93b8bc-8caa-4847-a870-52b53e7b1ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=52cb061214c41010f8772b9720bcff3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52cb061214c41010f8772b9720bcff3d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>1ecb061214c41010f8772b9720bcff3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>Specialty Products</value>
+        <variable display_value="">ad6a86de14841010f8772b9720bcff40</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52cb061214c41010f8772b9720bcff3d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>decb061214c41010f8772b9720bcff3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>200</value>
+        <variable display_value="">e56a86de14841010f8772b9720bcff49</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e54b021214c41010f8772b9720bcff50^sys_idNOT INdacb821214c41010f8772b9720bcff32"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Lab 4: Import Commodities REF">e54b021214c41010f8772b9720bcff50</flow>
+        <name>Weekly</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>dacb821214c41010f8772b9720bcff32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>weekly</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dacb821214c41010f8772b9720bcff32"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dacb821214c41010f8772b9720bcff32</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>12cb821214c41010f8772b9720bcff34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>1970-01-01 09:00:00</value>
+        <variable display_value="">a745a104c32222002841b63b12d3ae18</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dacb821214c41010f8772b9720bcff32</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>16cb821214c41010f8772b9720bcff34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">c685a104c32222002841b63b12d3aed3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e54b021214c41010f8772b9720bcff50^sys_idNOT INa14b021214c41010f8772b9720bcff52"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e54b021214c41010f8772b9720bcff50</id>
+        <name>Lab 4: Import Commodities REF</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:04:26</sys_created_on>
+        <sys_id>a14b021214c41010f8772b9720bcff52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:04:26</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e54b021214c41010f8772b9720bcff50^sys_idNOT IN12cb061214c41010f8772b9720bcff36,52cb061214c41010f8772b9720bcff3d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 4: Import Commodities REF">e54b021214c41010f8772b9720bcff50</flow>
+        <order>1.1</order>
+        <parent_ui_id>5b93b8bc-8caa-4847-a870-52b53e7b1ad8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>12cb061214c41010f8772b9720bcff36</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <ui_id>0ac1be80-ce33-4681-9db6-aadab44417e2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=12cb061214c41010f8772b9720bcff36"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>12cb061214c41010f8772b9720bcff36</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>d6cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>x_ccw1427_demo_commodity</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=12cb061214c41010f8772b9720bcff36"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>12cb061214c41010f8772b9720bcff36</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>92cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>category={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.category}}^farmer_id={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.farmer_id}}^item={{5b93b8bc-8caa-4847-a870-52b53e7b1ad8.commodity.item}}^coalesce_fields=category,farmer_id,item</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>12cb061214c41010f8772b9720bcff36</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>56cb061214c41010f8772b9720bcff38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Lab 3: Commodities REF">ed6a86de14841010f8772b9720bcff3f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Lab 4: Import Commodities REF">e54b021214c41010f8772b9720bcff50</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>52cb061214c41010f8772b9720bcff3d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <ui_id>5b93b8bc-8caa-4847-a870-52b53e7b1ad8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=52cb061214c41010f8772b9720bcff3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52cb061214c41010f8772b9720bcff3d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>1ecb061214c41010f8772b9720bcff3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>Specialty Products</value>
+        <variable display_value="">ad6a86de14841010f8772b9720bcff40</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52cb061214c41010f8772b9720bcff3d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 17:06:41</sys_created_on>
+        <sys_id>decb061214c41010f8772b9720bcff3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 17:06:41</sys_updated_on>
+        <value>200</value>
+        <variable display_value="">e56a86de14841010f8772b9720bcff49</variable>
+    </sys_variable_value>
+</record_update>

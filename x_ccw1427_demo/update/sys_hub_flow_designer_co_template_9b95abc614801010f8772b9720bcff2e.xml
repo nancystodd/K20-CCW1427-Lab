@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FD27aedbc2e48010105877d046f78d740b</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 05:00:40</sys_created_on>
+        <sys_id>9b95abc614801010f8772b9720bcff2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Artwork</sys_name>
+        <sys_package display_value="CCW1427_Demo" source="x_ccw1427_demo">c95a5d2718730010f87734669adcea01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_9b95abc614801010f8772b9720bcff2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 05:00:40</sys_updated_on>
+        <template_label>Artwork</template_label>
+        <template_name>artwork</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

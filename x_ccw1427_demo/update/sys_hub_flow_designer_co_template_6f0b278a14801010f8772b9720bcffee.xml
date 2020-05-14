@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FD0aaa238a3e801010bbc936ffb7e14443</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 05:24:26</sys_created_on>
+        <sys_id>6f0b278a14801010f8772b9720bcffee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Commodity</sys_name>
+        <sys_package display_value="CCW1427_Demo" source="x_ccw1427_demo">c95a5d2718730010f87734669adcea01</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1427_Demo">c95a5d2718730010f87734669adcea01</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_6f0b278a14801010f8772b9720bcffee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 05:24:26</sys_updated_on>
+        <template_label>Commodity</template_label>
+        <template_name>commodity</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>
